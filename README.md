@@ -6,7 +6,7 @@
 * Arduino Relay Module
 
 ## Physical Modification
-![alt text](./docs/pcb_top.jpeg "PCB Top")
+![alt text](./docs/pcb_top.jpg "PCB Top")
 
 
 ## Software
