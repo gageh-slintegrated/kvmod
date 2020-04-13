@@ -1,5 +1,6 @@
 
 int sw = 12;
+bool sw_state;
 
 //declare class and assign objects
 class kvm{
@@ -54,7 +55,8 @@ float voltage(char ch)
 void loop()
 {
     //read sw state
-    bool sw_state = digitalRead(sw);   
+    
+    sw_state = digitalRead(sw);
 
     //get kvm_1 current channel
     kvm_1.ch1_voltage = voltage(kvm_1.ch1);
@@ -75,14 +77,16 @@ void loop()
          delay(100);
          digitalWrite(kvm_1.sw, LOW);
          digitalWrite(kvm_2.sw, LOW);
+         delay(500);
       }
       else //get 2 in sync with kvm 1
       {
          digitalWrite(kvm_2.sw, HIGH);
          delay(100);
          digitalWrite(kvm_2.sw, LOW);
+         delay(100);
       }
     }
     delay(10);
-}
+    }
 
