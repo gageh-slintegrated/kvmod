@@ -66,7 +66,7 @@ void loop()
     kvm_2.ch2_voltage = voltage(kvm_2.ch2);
     kvm_2.current_channel = check_channel(kvm_2.ch1_voltage,kvm_2.ch2_voltage);
 
-    if(sw_state)
+    if(!sw_state)
     {
       if(kvm_1.current_channel == kvm_2.current_channel)
       {
@@ -83,6 +83,6 @@ void loop()
          digitalWrite(kvm_2.sw, LOW);
       }
     }
-    delay(100);
+    delay(10);
 }
 
