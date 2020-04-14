@@ -14,4 +14,5 @@
 * The switch leg will be connected to a discrete relay for remote switching.
 
 ## Software
-* ...hmmm
+* Very simple arduino code. If KVM #2 is not on the same channel as KVM #1, change KVM #2s channel to get them in sync
+* Once they're in sync, when the switch is pressed change both KVMs to the same channel.
