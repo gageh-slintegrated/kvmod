@@ -1,5 +1,5 @@
 # KVM Mod
-
+> #### <i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Configuration
 # Hardware
 * (2) [PWAY HDMI USB KVM SWITCH 2X1](https://www.amazon.com/AAO-Supports-Auto-scan-Hot-Key-Netware/dp/B07NZMM2PK/ref=sr_1_3?dchild=1&keywords=PWAY+HDMI+USB+KVM+SWITCH+2X1&qid=1586721640&s=electronics&sr=1-3)
 * (1) Arduino UNO (or other...)
